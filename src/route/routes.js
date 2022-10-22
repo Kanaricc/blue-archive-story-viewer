@@ -50,6 +50,11 @@ const routes = [
         name: "Contributors",
         component: () => import("../components/ContributorCredits.vue"),
       },
+      {
+        path: "/test",
+        name: "test",
+        component: () => import("../components/SpinePlayer.vue"),
+      },
     ],
   },
 ];
